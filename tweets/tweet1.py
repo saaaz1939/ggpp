@@ -35,5 +35,5 @@ class MyListener(StreamListener):
 twitter_stream = Stream(auth, MyListener())
 
 # change the keyword here
-twitter_stream.filter(track=['مساء'])
+twitter_stream.filter(track=['مكه'])
 
